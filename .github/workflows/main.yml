@@ -25,6 +25,8 @@ jobs:
           aws_secret_access_key = ${{secrets.AWS_SECRET_ACCESS_KEY}} " > ~/.aws/credentials
           cat ~/.aws/credentials
           aws s3 ls 
+
+
           
 
         
