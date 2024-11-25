@@ -1,6 +1,11 @@
 name: AWS Terraform integration using github actions 
 
 on:
+  workflow_dispatch:
+    inputs:
+      createinfra:
+        type: boolean
+        required: true
   push:
     branches:
     - main
