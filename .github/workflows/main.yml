@@ -32,8 +32,8 @@ jobs:
         run: |
           terraform init
           terraform validate 
-          terraform plan -out shubham-${github.sha}
-          terraform apply shubham-${github.sha} --auto-approve 
+          terraform plan 
+          terraform apply --auto-approve 
           
           
           
