@@ -34,6 +34,8 @@ jobs:
           terraform validate 
           terraform plan 
           terraform apply --auto-approve 
+      - name: distroy 
+        run: terraform destroy 
           
           
           
