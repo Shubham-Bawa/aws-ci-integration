@@ -6,6 +6,12 @@ on:
       createinfra:
         type: boolean
         required: true
+      install-awscli:
+        type: boolean
+        required: true
+      multiple-ec2:
+        type: number
+        required: true 
   push:
     branches:
     - main
