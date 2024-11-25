@@ -45,7 +45,11 @@ jobs:
           terraform init
           terraform validate 
           terraform plan 
-          terraform apply -var countsec2 = ${{ inputs.multiple-ec2 }}  --auto-approve 
+          echo "
+            multiple-ec2 = ${{inputs.number}}" > terraform.tfvars 
+            
+          
+          terraform apply --auto-approve 
       - name: distroy 
         run: terraform destroy 
           
