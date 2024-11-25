@@ -142,11 +142,6 @@ resource "aws_instance" "instance1" {
   subnet_id              = aws_subnet.subnet.id
   vpc_security_group_ids = [aws_security_group.aws-sg.id]
   key_name               = var.key_name
-  
-   
-
-
-  }
   }
 
 
