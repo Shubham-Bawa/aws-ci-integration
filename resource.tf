@@ -138,6 +138,7 @@ resource "aws_security_group" "aws-sg" {
 # INSTANCES #
 resource "aws_instance" "instance1" {
   ami                    = data.aws_ami.aws-linux.id
+  count  = var.countsec2
   instance_type          = "t2.micro"
   subnet_id              = aws_subnet.subnet.id
   vpc_security_group_ids = [aws_security_group.aws-sg.id]
