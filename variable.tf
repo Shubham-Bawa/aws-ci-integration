@@ -25,7 +25,7 @@ variable "private_key_path"{
 variable "key_name" {
   type = string
  description = "key name"
- default = "terraformkp"
+ default = "madhuri-devnetops"
 }
 variable "region" {
   type    = string
