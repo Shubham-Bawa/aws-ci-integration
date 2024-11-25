@@ -7,7 +7,7 @@ variable "s3_tags" {
   type = map
 
   default = {
-    createdby   = "Neeha"
+    createdby   = "Shubham"
     environment = "dev"
   }
 }
