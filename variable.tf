@@ -1,5 +1,5 @@
 variable "s3_bucket_name" {
-  default     = "shubhamtestlkm24"
+  default     = "shubhamtestlkm434343"
   description = "Name of the s3 bucket"
   type        = string
 }
@@ -25,7 +25,7 @@ variable "private_key_path"{
 variable "key_name" {
   type = string
  description = "key name"
- default = "madhuri-devnetops"
+ default = "Neeharika_Terraform"
 }
 variable "region" {
   type    = string
