@@ -38,7 +38,10 @@ variable "network_address_space" {
 variable "subnet_address_space" {
   default = "10.1.0.0/24"
 }
-
+variable "countsec2" {
+  type = number
+  default = 2
+}
 
 
 
