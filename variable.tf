@@ -1,5 +1,5 @@
 variable "s3_bucket_name" {
-  default     = "<yourname>-s3bucket-<date>"
+  default     = "shubham-25-11-LKM"
   description = "Name of the s3 bucket"
   type        = string
 }
