@@ -1,3 +1,4 @@
+```mermaid
 graph TD
     A[Start] --> B{Application code Files}
     B -- "In case client has CI & CD, build process to be shared" --> D
